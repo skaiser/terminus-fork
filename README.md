@@ -158,14 +158,14 @@ All examples run on `http://localhost:8890` by default.
 Terminus uses a unique server-side architecture:
 
 ```
-┌─────────────┐         WebSocket          ┌─────────────┐
+┌─────────────┐         WebSocket        ┌─────────────┐
 │   Browser   │ ◄──────────────────────► │  Go Server  │
-│             │         JSON Messages      │             │
-│ ┌─────────┐ │                           │ ┌─────────┐ │
-│ │  Thin   │ │                           │ │   MVU   │ │
-│ │ Client  │ │                           │ │ Engine  │ │
-│ └─────────┘ │                           │ └─────────┘ │
-└─────────────┘                           └─────────────┘
+│             │       JSON Messages      │             │
+│ ┌─────────┐ │                          │ ┌─────────┐ │
+│ │  Thin   │ │                          │ │   MVU   │ │
+│ │ Client  │ │                          │ │ Engine  │ │
+│ └─────────┘ │                          │ └─────────┘ │
+└─────────────┘                          └─────────────┘
 ```
 
 Key benefits:
