@@ -1,4 +1,4 @@
-module github.com/yourusername/terminusgo
+module github.com/skaiser/terminusgo
 
 go 1.23.0
 

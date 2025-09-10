@@ -13,7 +13,7 @@ This tutorial will guide you through building your first Terminus application - 
 ### Step 1: Install Terminus
 
 ```bash
-go get github.com/yourusername/terminusgo
+go get github.com/skaiser/terminusgo
 ```
 
 ### Step 2: Create Your Project
@@ -52,9 +52,9 @@ import (
     "fmt"
     "log"
     
-    "github.com/yourusername/terminusgo/pkg/terminus"
-    "github.com/yourusername/terminusgo/pkg/terminus/style"
-    "github.com/yourusername/terminusgo/pkg/terminus/widget"
+    "github.com/skaiser/terminusgo/pkg/terminus"
+    "github.com/skaiser/terminusgo/pkg/terminus/style"
+    "github.com/skaiser/terminusgo/pkg/terminus/widget"
 )
 
 // TodoItem represents a single todo

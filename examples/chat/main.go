@@ -25,9 +25,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/yourusername/terminusgo/pkg/terminus"
-	"github.com/yourusername/terminusgo/pkg/terminus/layout"
-	"github.com/yourusername/terminusgo/pkg/terminus/widget"
+	"github.com/skaiser/terminusgo/pkg/terminus"
+	"github.com/skaiser/terminusgo/pkg/terminus/layout"
+	"github.com/skaiser/terminusgo/pkg/terminus/widget"
 )
 
 //go:embed all:static/*

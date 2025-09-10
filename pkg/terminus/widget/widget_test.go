@@ -17,7 +17,7 @@ package widget
 import (
 	"testing"
 
-	"github.com/yourusername/terminusgo/pkg/terminus"
+	"github.com/skaiser/terminusgo/pkg/terminus"
 )
 
 // mockWidget for testing

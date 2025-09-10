@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/google/generative-ai-go/genai"
-	"github.com/yourusername/terminusgo/pkg/terminus"
-	"github.com/yourusername/terminusgo/pkg/terminus/style"
-	"github.com/yourusername/terminusgo/pkg/terminus/widget"
+	"github.com/skaiser/terminusgo/pkg/terminus"
+	"github.com/skaiser/terminusgo/pkg/terminus/style"
+	"github.com/skaiser/terminusgo/pkg/terminus/widget"
 	"google.golang.org/api/option"
 )
 

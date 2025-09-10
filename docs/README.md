@@ -22,10 +22,10 @@ Welcome to the Terminus documentation! Terminus is a Go framework for building t
 
 ## 🚀 Quick Links
 
-- [GitHub Repository](https://github.com/yourusername/terminusgo)
-- [Issue Tracker](https://github.com/yourusername/terminusgo/issues)
-- [Discussions](https://github.com/yourusername/terminusgo/discussions)
-- [Releases](https://github.com/yourusername/terminusgo/releases)
+- [GitHub Repository](https://github.com/skaiser/terminusgo)
+- [Issue Tracker](https://github.com/skaiser/terminusgo/issues)
+- [Discussions](https://github.com/skaiser/terminusgo/discussions)
+- [Releases](https://github.com/skaiser/terminusgo/releases)
 
 ## 📖 Documentation Overview
 
@@ -84,8 +84,8 @@ Here's a simple "Hello, World!" application:
 package main
 
 import (
-    "github.com/yourusername/terminusgo/pkg/terminus"
-    "github.com/yourusername/terminusgo/pkg/terminus/style"
+    "github.com/skaiser/terminusgo/pkg/terminus"
+    "github.com/skaiser/terminusgo/pkg/terminus/style"
 )
 
 type HelloComponent struct{}
@@ -174,6 +174,6 @@ Terminus is open source software licensed under the MIT License.
 ---
 
 Happy building with Terminus! If you have questions or need help, please:
-- Open an [issue](https://github.com/yourusername/terminusgo/issues)
-- Start a [discussion](https://github.com/yourusername/terminusgo/discussions)
-- Read the [documentation](https://github.com/yourusername/terminusgo/docs)
+- Open an [issue](https://github.com/skaiser/terminusgo/issues)
+- Start a [discussion](https://github.com/skaiser/terminusgo/discussions)
+- Read the [documentation](https://github.com/skaiser/terminusgo/docs)

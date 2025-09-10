@@ -23,8 +23,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/yourusername/terminusgo/pkg/terminus"
-	"github.com/yourusername/terminusgo/pkg/terminus/widget"
+	"github.com/skaiser/terminusgo/pkg/terminus"
+	"github.com/skaiser/terminusgo/pkg/terminus/widget"
 )
 
 //go:embed all:static/*

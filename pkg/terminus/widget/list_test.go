@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/yourusername/terminusgo/pkg/terminus"
+	"github.com/skaiser/terminusgo/pkg/terminus"
 )
 
 func TestSimpleListItem(t *testing.T) {

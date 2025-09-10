@@ -17,7 +17,7 @@ package widget
 import (
 	"time"
 
-	"github.com/yourusername/terminusgo/pkg/terminus"
+	"github.com/skaiser/terminusgo/pkg/terminus"
 )
 
 // SpinnerStyle represents different spinner animation styles
