@@ -17,7 +17,7 @@ package widget
 import (
 	"testing"
 
-	"github.com/skaiser/terminusgo/pkg/terminus"
+	"github.com/skaiser/terminus-fork/pkg/terminus"
 )
 
 func TestTextInput(t *testing.T) {

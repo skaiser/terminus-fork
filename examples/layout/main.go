@@ -23,9 +23,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/skaiser/terminusgo/pkg/terminus"
-	"github.com/skaiser/terminusgo/pkg/terminus/layout"
-	"github.com/skaiser/terminusgo/pkg/terminus/widget"
+	"github.com/skaiser/terminus-fork/pkg/terminus"
+	"github.com/skaiser/terminus-fork/pkg/terminus/layout"
+	"github.com/skaiser/terminus-fork/pkg/terminus/widget"
 )
 
 //go:embed all:static/*

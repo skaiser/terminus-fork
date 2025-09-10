@@ -14,7 +14,7 @@
 
 package terminus
 
-import "github.com/skaiser/terminusgo/pkg/terminus/style"
+import "github.com/skaiser/terminus-fork/pkg/terminus/style"
 
 // Style exports
 type (

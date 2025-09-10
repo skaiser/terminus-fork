@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/skaiser/terminusgo/pkg/terminus"
-	"github.com/skaiser/terminusgo/pkg/terminus/style"
+	"github.com/skaiser/terminus-fork/pkg/terminus"
+	"github.com/skaiser/terminus-fork/pkg/terminus/style"
 )
 
 //go:embed all:static/*

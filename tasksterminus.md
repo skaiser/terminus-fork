@@ -26,7 +26,7 @@
 ## Phase 1: Core Framework Foundation
 
 ### Task 1.1: Project Setup and Structure ✅
-- Create Go module: `github.com/skaiser/terminusgo`
+- Create Go module: `github.com/skaiser/terminus-fork`
 - Set up standard Go project layout:
   ```
   /cmd/example/

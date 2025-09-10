@@ -18,7 +18,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/skaiser/terminusgo/pkg/terminus"
+	"github.com/skaiser/terminus-fork/pkg/terminus"
 )
 
 // TextInput is a single-line text input widget

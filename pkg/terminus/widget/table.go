@@ -19,7 +19,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/skaiser/terminusgo/pkg/terminus"
+	"github.com/skaiser/terminus-fork/pkg/terminus"
 )
 
 // TableCell represents a cell in a table

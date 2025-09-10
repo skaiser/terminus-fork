@@ -17,7 +17,7 @@ package widget
 import (
 	"strings"
 
-	"github.com/skaiser/terminusgo/pkg/terminus"
+	"github.com/skaiser/terminus-fork/pkg/terminus"
 )
 
 // ListItem represents an item in a list

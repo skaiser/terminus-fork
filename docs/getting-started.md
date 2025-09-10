@@ -24,7 +24,7 @@ Terminus is a Go framework for building terminal-style user interfaces that run 
 ### Install Terminus
 
 ```bash
-go get github.com/skaiser/terminusgo
+go get github.com/skaiser/terminus-fork
 ```
 
 ## Quick Start
@@ -47,8 +47,8 @@ Create `main.go`:
 package main
 
 import (
-    "github.com/skaiser/terminusgo/pkg/terminus"
-    "github.com/skaiser/terminusgo/pkg/terminus/style"
+    "github.com/skaiser/terminus-fork/pkg/terminus"
+    "github.com/skaiser/terminus-fork/pkg/terminus/style"
 )
 
 // HelloComponent is our main component
@@ -215,7 +215,7 @@ Terminus includes pre-built widgets for common UI elements:
 ### Text Input
 
 ```go
-import "github.com/skaiser/terminusgo/pkg/terminus/widget"
+import "github.com/skaiser/terminus-fork/pkg/terminus/widget"
 
 type FormComponent struct {
     nameInput *widget.TextInput
@@ -474,9 +474,9 @@ func TestCounter(t *testing.T) {
 
 ## Getting Help
 
-- 📖 Read the [documentation](https://github.com/skaiser/terminusgo/docs)
+- 📖 Read the [documentation](https://github.com/skaiser/terminus-fork/docs)
 - 💬 Join our [Discord community](#)
-- 🐛 Report issues on [GitHub](https://github.com/skaiser/terminusgo/issues)
+- 🐛 Report issues on [GitHub](https://github.com/skaiser/terminus-fork/issues)
 - 📧 Email support@terminus.dev
 
 Happy building with Terminus! 🚀

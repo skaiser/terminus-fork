@@ -171,7 +171,7 @@ view := input.View()
 
 ### Styling Text
 ```go
-import "github.com/skaiser/terminusgo/pkg/terminus/style"
+import "github.com/skaiser/terminus-fork/pkg/terminus/style"
 
 styled := style.New().
     Bold(true).
