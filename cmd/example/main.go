@@ -22,7 +22,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/skaiser/terminus-fork/pkg/terminus"
+	"github.com/skaiser/terminusgo/pkg/terminus"
 )
 
 //go:embed all:static/*

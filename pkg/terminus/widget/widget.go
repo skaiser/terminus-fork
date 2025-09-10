@@ -15,7 +15,7 @@
 package widget
 
 import (
-	"github.com/skaiser/terminus-fork/pkg/terminus"
+	"github.com/skaiser/terminusgo/pkg/terminus"
 )
 
 // Widget represents a reusable UI component

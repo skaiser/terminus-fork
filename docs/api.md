@@ -176,7 +176,7 @@ func Sequence(cmds ...Cmd) Cmd
 The style package provides a fluent API for text styling:
 
 ```go
-import "github.com/skaiser/terminus-fork/pkg/terminus/style"
+import "github.com/skaiser/terminusgo/pkg/terminus/style"
 ```
 
 #### Creating Styles
@@ -227,7 +227,7 @@ styled := style.New().
 A single-line text input widget:
 
 ```go
-import "github.com/skaiser/terminus-fork/pkg/terminus/widget"
+import "github.com/skaiser/terminusgo/pkg/terminus/widget"
 
 // Create a text input
 input := widget.NewTextInput().
@@ -360,7 +360,7 @@ cmd := spinner.Tick()
 ### Box Drawing
 
 ```go
-import "github.com/skaiser/terminus-fork/pkg/terminus/layout"
+import "github.com/skaiser/terminusgo/pkg/terminus/layout"
 
 // Draw a simple box
 box := layout.Box{
@@ -469,7 +469,7 @@ package main
 import (
     "embed"
     "log"
-    "github.com/skaiser/terminus-fork/pkg/terminus"
+    "github.com/skaiser/terminusgo/pkg/terminus"
 )
 
 //go:embed all:static/*

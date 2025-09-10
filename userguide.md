@@ -45,7 +45,7 @@ TerminusGo is built around a few key ideas, inspired by the Elm Architecture and
 **1. Installation (Hypothetical)**
 
 ```bash
-go get github.com/skaiser/terminus-fork # Or wherever it would live
+go get github.com/skaiser/terminusgo # Or wherever it would live
 ```
 
 **2. Your First TerminusGo App: "Hello, Terminus!"**
@@ -68,7 +68,7 @@ package main
 import (
 	"log"
 	"myterminusapp/components" // Assuming your component is in a sub-package
-	"github.com/skaiser/terminus-fork"
+	"github.com/skaiser/terminusgo"
 )
 
 func main() {
@@ -95,8 +95,8 @@ package components
 
 import (
 	"fmt"
-	"github.com/skaiser/terminus-fork"
-	"github.com/skaiser/terminus-fork/style" // For styling
+	"github.com/skaiser/terminusgo"
+	"github.com/skaiser/terminusgo/style" // For styling
 )
 
 // --- Model ---
@@ -175,7 +175,7 @@ As seen above, a component typically involves:
 *   **Basic Text:** Your `View()` method returns a string. Newlines (`\n`) create new lines in the terminal display.
 *   **Styling Text:** Use the `terminusgo/style` package.
     ```go
-    import "github.com/skaiser/terminus-fork/style"
+    import "github.com/skaiser/terminusgo/style"
 
     func (c *MyComponent) View() string {
         s := style.New()
@@ -188,7 +188,7 @@ As seen above, a component typically involves:
 *   **Layout Helpers (Conceptual - TerminusGo might provide some):**
     While you primarily work with strings, TerminusGo could offer helpers for common layout tasks (like boxes or columns), or you could use string manipulation libraries.
     ```go
-    import "github.com/skaiser/terminus-fork/layout" // Hypothetical
+    import "github.com/skaiser/terminusgo/layout" // Hypothetical
 
     func (c *MyComponent) View() string {
         content := "This is inside a box."

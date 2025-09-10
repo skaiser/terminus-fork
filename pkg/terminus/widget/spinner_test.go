@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/skaiser/terminus-fork/pkg/terminus"
+	"github.com/skaiser/terminusgo/pkg/terminus"
 )
 
 func TestSpinner(t *testing.T) {

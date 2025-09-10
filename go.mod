@@ -1,4 +1,4 @@
-module github.com/skaiser/terminus-fork
+module github.com/skaiser/terminusgo
 
 go 1.23.0
 
